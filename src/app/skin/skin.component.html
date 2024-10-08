@@ -1,0 +1,191 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <!-- الصف الأول: 3 كروت -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/im1.jpg" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body text-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item text-end">
+                            <h5><strong>بيوتي اوف جوسون واقي شمس خلاصة الأرز</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>يحتوي على خلاصة الأرز و النياسيناميد والبروبيوتيك</strong>
+                    </p>
+                    <p class="card-text text-danger">
+                        <strong>مناسب لكافة أنواع البشرة والحساسة</strong>
+                    </p>
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٨٢ ريال سعودي</p>
+                    <button class="btn btn-success" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-warning" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/m2.png" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>سيروم الجينسينغ والحلزون لتجديد البشرة من بيوتي اوف جوسون 30 مل</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>سيروم مغذي غني بمكونات الهانبانج الطبيعي (الأدوية العشبية الكورية التقليدية) خفيف ويرطب البشرة. يساعد الجينسنغ الغني بالمضادات الحيوية على تقليل ظهور الخطوط الدقيقة والتجاعيد.</strong>
+                    </p>
+                    <p class="card-text text-danger">
+                        <strong>مناسب لجميع أنواع البشرة.</strong>
+                    </p>
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half-alt text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٦٠ ريال سعودي</p>
+                    <button class="btn btn-primary" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-danger" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/m3.jpeg" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>جل سيبيوم الرغوي لتنقية البشرة من بيوديرما</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>جل الرغوة اليومي لتنظيف و تنقية البشرة الدهنية والمختلطة</strong>
+                    </p>
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half-alt text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٩٠ ريال سعودي</p>
+                    <button class="btn btn-info" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-secondary" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- الصف الثاني: 3 كروت -->
+    <div class="row justify-content-center">
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/m4.jpg" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>صابون بزيت الأرغان والخزامى</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>يتم صنع هذا الصابون من قاعدة صابون نباتية 100٪، مما يجعله مناسبًا للأشخاص الذين يفضلون المنتجات الطبيعية والخالية من المكونات الحيوانية.</strong>
+                    </p>
+                    <p class="card-text text-danger">
+                        <strong>يساعد زيت الأرغان على ترطيب البشرة الجافة وتقليل الجفاف والتشققات.</strong>
+                    </p>
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half-alt text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ١٥ ريال سعودي</p>
+                    <button class="btn btn-warning" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-danger" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/m5.jpg" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>كريم العين ريتينول انتنس ادفانسد ثلاثي المفعول من سوم باي مي</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>كريم مصمم لتحسين مظهر تجاعيد محيط العين والهالات السوداء والخطوط الدقيقة</strong>
+                    </p>
+                    <p class="card-text text-danger">
+                        <strong>يحتوي على تركيز فعال من مادة الريتينول (0.1%)، مما يساعد على تجديد خلايا البشرة وتلطيفها.</strong>
+                    </p>
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٧٥ ريال سعودي</p>
+                    <button class="btn btn-success" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-primary" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/m6.jpg" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>ستريدكس مسحات قطنية للحبوب وحب الشباب</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>تمت صياغة هذه المسحات بمزيج خاص من حمض الساليسيليك</strong>
+                    </p>
+                    <p class="card-text text-danger">
+                        <strong>يعمل على تقليل الزيوت المتراكمة ويساعد في تقشير خلايا الجلد الميتة.</strong>
+                    </p>
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٣٠ ريال سعودي</p>
+                    <button class="btn btn-warning" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-danger" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

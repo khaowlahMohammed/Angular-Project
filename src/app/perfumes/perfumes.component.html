@@ -1,0 +1,195 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <!-- الصف الأول: 3 كروت -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/p1.jpg" class="card-img-top" style="width: 50%; height: 200px; object-fit: cover; ">
+                <div class="card-body text-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item text-end">
+                            <h5><strong>عطر بلاك ابيوم او دو برفيوم
+                            </strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong> لمسات إضافية من الفلفل الوردي، زهر البرتقال، الياسمين، الفانيليا، الباتشولي وخشب الأرز.</strong>
+                    </p>
+
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٤٣٠ ريال سعودي</p>
+                    <button class="btn btn-success" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-warning" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/p2.jpg" class="card-img-top" style="width: 80%; height: 170px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>مس لافيرن بلوم </strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>افتتاحية العطر : الورد البلغاري، أزهار البرتقال، الفلفل الوردي، الياسمين، الورد
+
+                        </strong>
+                    </p>
+                  
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half-alt text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٢٠٠ ريال سعودي</p>
+                    <button class="btn btn-primary" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-danger" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/p3.jpg" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>ابراهيم القرشي - عطر مسك باودر
+                            </strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>مقدمة العطر: الياسمين ، يلانغ يلانغ ، الورد
+
+                        </strong>
+                    </p>
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ١٩٤ ريال سعودي</p>
+                    <button class="btn btn-info" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-secondary" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- الصف الثاني: 3 كروت -->
+    <div class="row justify-content-center">
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/p4.jpg" class="card-img-top" style="width: 90%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong>عطر أطفال موستيلا بيبي موستي</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>يجمع بين النفحات الرقيقة للحمضيات والورد والليلك.فيما تضفي مستخلصات العسل والبابونج    </strong>
+                    </p>
+               ]
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-half-alt text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ٦٩ ريال سعودي</p>
+                    <button class="btn btn-warning" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-danger" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/p5.jpg" class="card-img-top" style="width: 50%; height:200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong> فراشة </strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>التركيبة العطرية: رحيق التوت ، بتلات السوسن والفانيليا
+
+                        </strong>
+                    </p>
+                   
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ١٩٥ ريال سعودي</p>
+                    <button class="btn btn-success" [routerLink]="['/payment']">شراء</button>
+                    <button class="btn btn-primary" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 text-end shadow-sm">
+                <img src="assets/p6.jpg" class="card-img-top" style="width: 60%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h5><strong> غنيغام</strong></h5>
+                        </li>
+                    </ul>
+                    <p class="card-text">
+                        <strong>        التركيبة العطرية: الفريزيا الزرقاء ، الخوخ الأبيض ، الكلمنتين الطازج ، البنفسج، المسك.
+
+                        </strong>
+                    </p>
+                   
+                    <!-- تقييم النجوم -->
+                    <div class="rating mb-2">
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star text-warning"></i>
+                        <i class="fa fa-star-o text-warning"></i>
+                    </div>
+                    <!-- السعر + زر الشراء -->
+                    <p>السعر: ١٩٥ ريال سعودي</p>
+                    <button class="btn btn-warning" [routerLink]="['/payment']">شراء</button>
+                    
+                    <button class="btn btn-danger" (click)="increment()">اضافة الى السله</button>
+                </div>
+            </div>
+        </div>
+    </div>
+

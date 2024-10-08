@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            
+        </div>
+        <div class="col-sm-9">
+            <div *ngFor="let item of products_data">
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                               <div class="row">
+                                  <div class="col-sm-3">
+                                    <img [src]="item.image" alt="" width="90" height="90">
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <ul class="list-unstyled">
+                                       <li><h1 class="badge bg-warning">{{item.title}}</h1></li>
+                                       <li>{{item.description}}</li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-sm-3">
+                                    <ul class="list-unstyled">
+                                        <li><h1 class="badge bg-warning">price :{{item.price}}</h1></li>
+                                        <li>count : {{item.rating.count}}</li>
+                                     </ul>
+
+                                     <div class="row">
+                                        <div class="col">
+                                            <a [routerLink]="['/details',item.id]" class="btn btn-primary">تفاصيل المنتج</a>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

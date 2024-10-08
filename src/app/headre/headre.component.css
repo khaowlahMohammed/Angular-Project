@@ -1,0 +1,23 @@
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000; /* لون النص */
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #0056b3; /* لون النص النشط */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0056b3; /* لون النص عند التحويم */
+}
+
+
+
+
+.custom-bg {
+    background-color: #f5e5dc; /* لون البيج */
+}
+
+input[type="search"] {
+    width: 300px; /* تحديد عرض حقل البحث */
+}
